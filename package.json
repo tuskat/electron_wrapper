@@ -1,10 +1,11 @@
 {
-  "name": "capacitor-app",
+  "name": "basic-electron-app",
   "version": "1.0.0",
-  "description": "An Amazing Capacitor App",
+  "description": "For your electron needs",
   "main": "index.js",
   "scripts": {
     "electron:start": "electron ./",
+    "electron:dev": "electron ./dev.js",
     "electron:build": "electron-packager ."
   },
   "dependencies": {
@@ -12,7 +13,8 @@
     "electron-packager": "^14.0.6"
   },
   "devDependencies": {
-    "electron": "^6.0.10"
+    "electron": "^6.0.10",
+    "electron-is-dev": "^1.1.0"
   },
   "keywords": [
     "capacitor",
